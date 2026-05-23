@@ -2,7 +2,7 @@ app-id: org.tiwut.NetworkScanner
 runtime: org.kde.Platform
 runtime-version: '6.6'
 sdk: org.kde.Sdk
-command: network-scanner
+command: Network-Scanner
 finish-args:
   - --share=ipc
   - --socket=x11
@@ -15,8 +15,8 @@ modules:
     buildsystem: simple
     build-commands:
       - mkdir -p build && cd build && cmake .. && make
-      - install -D build/Network-Scanner /app/bin/network-scanner
+      - install -D build/Network-Scanner /app/bin/Network-Scanner
     sources:
-      - type: git
-        url: https://github.com/tiwut/Network-Scanner.git
-        branch: main
+      - type: archive
+        url: https://github.com/tiwut/Network-Scanner/archive/refs/tags/v2.4.6.tar.gz
+        sha256: 756292e4cee517289ee946dfed9afff8bf2031d41735e5d9b71292f6dded58c9
