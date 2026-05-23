@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.tiwut.NetworkScanner</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <name>Network Scanner</name>
+  <summary>A tactical cross-platform Network Scanner re-engineered in C++ and Qt6.</summary>
+  <description>
+    <p>A high-performance network scanner for professional security tasks.</p>
+  </description>
+  <launchable type="desktop-id">org.tiwut.NetworkScanner.desktop</launchable>
+  <content_rating type="oars-1.1" />
+  <developer_name>Tiwut</developer_name>
+</component>
