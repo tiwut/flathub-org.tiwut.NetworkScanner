@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Network Scanner
 Comment=Tactical cross-platform Network Scanner
-Exec=network-scanner
+Exec=Network-Scanner
 Icon=org.tiwut.NetworkScanner
 Terminal=false
 Type=Application
